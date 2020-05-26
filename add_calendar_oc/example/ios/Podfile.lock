@@ -1,0 +1,22 @@
+PODS:
+  - add_calendar_oc (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - add_calendar_oc (from `.symlinks/plugins/add_calendar_oc/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  add_calendar_oc:
+    :path: ".symlinks/plugins/add_calendar_oc/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  add_calendar_oc: e36789a50a15538e670667b15c8c2aaea2767cae
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 3dbe063e9c90a5d7c9e4e76e70a821b9e2c1d271
+
+COCOAPODS: 1.9.1

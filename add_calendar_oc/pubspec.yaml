@@ -1,0 +1,23 @@
+name: add_calendar_oc
+description: A new flutter plugin project for add calendar (objc)  - only iOS
+version: 1.0.1
+author: loself <loselfmin@gmail.com>
+homepage: https://github.com/Xingefb/add_calendar_oc.git
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  plugin:
+    androidPackage: com.loself.add_calendar_oc
+    pluginClass: AddCalendarOcPlugin
+
