@@ -9,16 +9,16 @@ class AddCalendarOc {
   static Future addCalendar(
     String title,
     String notes, {
-    String startTime,
-    String endTime,
+    DateTime startTime,
+    DateTime endTime,
     String lication,
     bool allDay,
   }) async {
     await _channel.invokeMethod('add_calendar', {
       'title': title,
       'notes': notes,
-      'start_time': startTime,
-      'end_time': endTime,
+      'start_time': startTime.millisecondsSinceEpoch.toString(),
+      'end_time': endTime.millisecondsSinceEpoch.toString(),
       'location': lication ?? '',
       'all_day': allDay ?? false
     });

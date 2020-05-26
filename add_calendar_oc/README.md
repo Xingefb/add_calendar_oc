@@ -1,6 +1,19 @@
 # add_calendar_oc
 
-A new flutter plugin project.
+A new flutter plugin project for add calendar (objc)  - only iOS
+
+you can to do 
+
+```
+   await AddCalendarOc.addCalendar(
+      'title',
+      'notes',
+      startTime: DateTime.now(),
+      endTime: DateTime.now(),
+      lication: '北京',
+      allDay: true
+    );
+```
 
 ## Getting Started
 

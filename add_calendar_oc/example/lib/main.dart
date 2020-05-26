@@ -18,8 +18,8 @@ class _MyAppState extends State<MyApp> {
     await AddCalendarOc.addCalendar(
       'title',
       'notes',
-      startTime: DateTime.now().millisecondsSinceEpoch.toString(),
-      endTime: DateTime.now().millisecondsSinceEpoch.toString(),
+      startTime: DateTime.now(),
+      endTime: DateTime.now(),
       lication: '北京',
       allDay: true
     );
